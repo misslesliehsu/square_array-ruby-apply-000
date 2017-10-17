@@ -3,4 +3,5 @@ def square_array(array)
   array.each do |base|
     new_array << base**2
   end
+  return new_array
 end
