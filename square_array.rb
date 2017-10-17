@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  array.each do |base|
+    base = base ^ 2
+  end  # your code here
 end
