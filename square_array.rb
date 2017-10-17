@@ -1,5 +1,7 @@
 def square_array(array)
   array.each do |base|
-    base = base*base
+    square = base*base
+    array <<square
+    array.shift
   end  # your code here
 end
