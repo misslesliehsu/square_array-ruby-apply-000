@@ -1,8 +1,9 @@
 def square_array(array)
+  new_array = Array.new
   array.each do |base|
     square = base**2
-    array2 << square
+    new_array << square
     array.shift
   end  # your code here
-  array = array2
+  array = new_array
 end
