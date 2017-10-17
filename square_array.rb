@@ -9,7 +9,7 @@ end
 =end
 
 def square_array(array)
-  array.collect do |base|
-    base**2
+  array.collect{|base|
+    base**2}
   end
 end
